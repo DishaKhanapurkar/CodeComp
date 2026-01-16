@@ -1,0 +1,40 @@
+{
+  "name": "time-complexity-analyzer",
+  "displayName": "Time Complexity Analyzer",
+  "description": "Analyzes and visualizes time complexity of functions with LLM fallback",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onCommand:complexityAnalyzer.analyze"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "complexityAnalyzer.analyze",
+        "title": "Analyze Time Complexity"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.3"
+  }
+}
