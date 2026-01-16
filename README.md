@@ -30,6 +30,8 @@ Factorial complexity (O(n!))
 
 
 Output displayed in the VS Code terminal
+![WhatsApp Image 2026-01-16 at 18 11 48](https://github.com/user-attachments/assets/f0337e5d-a44d-4e5a-9f36-576456a433f2)
+
 
 ⚡ Cost-Aware & Secure
 
